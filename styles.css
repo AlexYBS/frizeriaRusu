@@ -1,0 +1,36 @@
+.Prezentare{
+    background-color: black;
+     
+}
+
+p{font-family: 'Edu TAS Beginner', cursive;
+    color: white;
+   font-size: 15px;
+}
+
+.Pricing-section  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(300deg, #EEEEEE, #191f22, #00ADB5, #393E46, #222831);
+     background-size: 180% 180%;
+     animation: gradient-animation 10s ease infinite;
+ }
+
+ @keyframes gradient-animation {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
+ .say {
+    color: white;
+ }
